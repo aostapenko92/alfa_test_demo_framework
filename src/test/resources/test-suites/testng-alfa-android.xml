@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Alfa Android test suite">
+
+    <test name="AndroidTest">
+        <classes>
+            <class name="tests.AlfaTest"/>
+        </classes>
+    </test>
+
+</suite>
