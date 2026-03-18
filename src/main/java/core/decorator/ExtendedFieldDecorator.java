@@ -30,7 +30,6 @@ public class ExtendedFieldDecorator implements FieldDecorator {
     private By getLocator(FindBy findBy) {
         if (!findBy.id().isEmpty()) return By.id(findBy.id());
         if (!findBy.xpath().isEmpty()) return By.xpath(findBy.xpath());
-        if (!findBy.css().isEmpty()) return By.cssSelector(findBy.css());
         if (!findBy.className().isEmpty()) return By.className(findBy.className());
         if (!findBy.name().isEmpty()) return By.name(findBy.name());
         return null;
