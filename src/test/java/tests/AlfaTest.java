@@ -127,7 +127,6 @@ public class AlfaTest extends BaseTest {
         Assert.assertTrue(loginPage.isPageOpened(), "Login page is not opened");
         SuccessfulLoginPage successfulLoginPage =loginPage.login(new User(VALID_USERNAME, VALID_PASS));
         Assert.assertTrue(successfulLoginPage.isPageOpened(), "Successful login page is not opened");
-        Assert.assertEquals(successfulLoginPage.isPageOpened(), "Successful login page is not opened");
     }
 
 }
